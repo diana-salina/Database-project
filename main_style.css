@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+}
+
+header {
+    background-color: #e0e0e0;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.line {
+    border: none;
+    height: 3px;
+    background: #cc4bc1;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #fceafa;
+    border-radius: 10px;
+    border: 2px solid #d1d1d1;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: #f5d9f4;
+    transform: scale(1.02);
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.inline-form {
+    display: inline-block;
+}
+
+.button {
+    background: linear-gradient(to right, #cc4bc1, #f06cc0);
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background: linear-gradient(to right, #e05ed3, #f28bc7);
+}

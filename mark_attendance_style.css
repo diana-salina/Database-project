@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+    text-align: center;
+}
+
+.client-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.client-item {
+    background: #e7c5e0;
+    border: 2px solid #c67cc4;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.attendance-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.attendance-buttons label {
+    background-color: #f0e0f6;
+    border: 2px solid #c67cc4;
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+    user-select: none;
+    transition: background 0.2s;
+}
+
+.attendance-buttons input[type="radio"] {
+    display: none;
+}
+
+.attendance-buttons input[type="radio"]:checked + label {
+    background-color: #c67cc4;
+    color: white;
+}
+
+.attendance-buttons label:hover {
+    background-color: #d9b9e3;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.main-button {
+    padding: 14px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.save-button {
+    background-color: #ce8bc0;
+}
+
+.save-button:hover {
+    background-color: #b870aa;
+}
+
+.back-button {
+    background-color: #888;
+}
+
+.back-button:hover {
+    background-color: #666;
+}
+.attendance-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.attendance-buttons input[type="radio"] {
+    display: none;
+}
+
+.attendance-buttons .option-button {
+    background-color: #f0e0f6;
+    border: 2px solid #c67cc4;
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.2s, color 0.2s;
+}
+
+/* Когда выбран */
+.attendance-buttons input[type="radio"]:checked + .option-button {
+    background-color: #c67cc4;
+    color: white;
+}
+
+/* При наведении */
+.attendance-buttons .option-button:hover {
+    background-color: #d9b9e3;
+}

@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+}
+
+header {
+    background-color: #e0e0e0;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.line {
+    border: none;
+    height: 3px;
+    background: #cc4bc1;
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 26px;
+    color: #333;
+}
+
+.add-button {
+    background: #ce8bc0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.add-button:hover {
+    background: #b870aa;
+}
+
+.template-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.template-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+    background: #fefefe;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.template-info h2 {
+    margin-top: 0;
+    color: #444;
+}
+
+.template-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.delete-button {
+    background: #cc4bc1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background: #cc4bc1;
+}

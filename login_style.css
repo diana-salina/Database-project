@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 40px;
+    background: #fff;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.login-form label {
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input, 
+.login-form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    text-align: right;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+.toggle-password button {
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #6a1b9a;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.toggle-password button:hover {
+    color: #4a0072;
+}
+
+.login-button {
+    width: 100%;
+    background: linear-gradient(90deg, #a64bf4, #d04bf4);
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background: linear-gradient(90deg, #8e3be4, #b03be4);
+}
